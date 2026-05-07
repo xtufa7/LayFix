@@ -1,20 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=165&text=LayFix&fontSize=42&fontAlignY=35&animation=fadeIn&fontColor=FFFFFF&color=0:111111,50:1C1C1C,100:2D5BFF"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=165&text=LayFix&fontSize=42&fontAlignY=35&animation=fadeIn&fontColor=FFFFFF&color=0:0F1115,45:1C1C1C,100:2D5BFF"/>
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=16&pause=1200&color=2D5BFF&center=true&vCenter=true&width=720&lines=Instant+Arabic+%2F+English+keyboard+layout+fixer...;Tray-first+lightweight+workflow...;Local-only+text+conversion..." />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=15&pause=1200&color=2D5BFF&center=true&vCenter=true&width=720&lines=Instant+Arabic+and+English+keyboard+layout+fixer...;Tray-first+lightweight+workflow...;Fast+local-only+conversion..." />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/platform-Windows-2D5BFF?style=for-the-badge&logo=windows&logoColor=white">
-<img src="https://img.shields.io/badge/runtime-.NET%208-1C1C1C?style=for-the-badge">
-<img src="https://img.shields.io/badge/privacy-Local%20Only-2D5BFF?style=for-the-badge">
-
-<br><br>
-
-<img src="docs/images/layfix-icon.png" width="96" alt="LayFix logo">
+<img src="https://img.shields.io/badge/Windows-2D5BFF?style=for-the-badge&logo=windows&logoColor=white">
+<img src="https://img.shields.io/badge/.NET%208-1C1C1C?style=for-the-badge">
+<img src="https://img.shields.io/badge/Local%20Only-2D5BFF?style=for-the-badge">
 
 </div>
 
@@ -22,9 +18,7 @@
 
 # LayFix
 
-Instant keyboard layout fixer for Arabic and English mixed text.
-
-LayFix is a lightweight tray-first utility that fixes accidental keyboard layout mistakes directly inside selected text.
+LayFix is a lightweight tray-first utility that fixes accidental Arabic and English keyboard layout mistakes directly inside selected text.
 
 Select text anywhere, press the shortcut, and LayFix replaces only the selected content with the corrected version.
 
@@ -33,71 +27,9 @@ No telemetry.
 
 ---
 
-# 🖼️ Preview
+# Features
 
-## Application Icon
-
-<p align="center">
-  <img src="docs/images/layfix-icon.png" width="160" alt="LayFix icon">
-</p>
-
----
-
-## Tray Placement
-
-<p align="center">
-  <img src="docs/images/tray-reference.png" width="720" alt="LayFix tray guide">
-</p>
-
----
-
-# 🧪 Examples
-
-## Arabic typed on English layout
-
-```text id="y8x2af"
-hgsghl ugd;l
-```
-
-Result:
-
-```text id="g1w4nz"
-السلام عليكم
-```
-
----
-
-## English typed on Arabic layout
-
-```text id="q9k2vd"
-اثممخ LayFix
-```
-
-Result:
-
-```text id="t6r3ow"
-hello LayFix
-```
-
----
-
-## Mixed Text
-
-```text id="z2u7fj"
-pdh fhg; LayFix
-```
-
-Result:
-
-```text id="m8x0cs"
-حيا بالك LayFix
-```
-
----
-
-# ⚡ Features
-
-* Tray-first application
+* Tray-first workflow
 * Selected-text replacement only
 * Clipboard Convert mode
 * Dark / Light / Follow System themes
@@ -110,25 +42,69 @@ Result:
 
 ---
 
-# 🧭 Usage
+# Examples
+
+## Arabic typed on English layout
+
+```text id="m4t7xk"
+hgsghl ugd;l
+```
+
+Result:
+
+```text id="p8w0fa"
+السلام عليكم
+```
+
+---
+
+## English typed on Arabic layout
+
+```text id="d1n5qe"
+اثممخ LayFix
+```
+
+Result:
+
+```text id="u9v2wc"
+hello LayFix
+```
+
+---
+
+## Mixed Text
+
+```text id="f3k8zb"
+pdh fhg; LayFix
+```
+
+Result:
+
+```text id="y2m4qx"
+حيا بالك LayFix
+```
+
+---
+
+# Usage
 
 1. Launch LayFix
 2. Find the icon in the system tray
 3. Select text in any application
 4. Press the conversion shortcut
-5. LayFix converts and replaces only the selected text
+5. LayFix replaces only the selected text
 
 Default shortcut:
 
-```text id="f2k6vx"
+```text id="r7p1ls"
 Ctrl + Alt + F9
 ```
 
 ---
 
-# 📋 Tray Menu
+# Tray Menu
 
-```text id="r3m1la"
+```text id="s4q9vu"
 Settings
 Clipboard Convert
 About
@@ -138,7 +114,7 @@ Exit
 
 ---
 
-# 🔒 Privacy
+# Privacy
 
 LayFix is designed to stay local.
 
@@ -152,17 +128,12 @@ LayFix is designed to stay local.
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
-```text id="u7w5eb"
+```text id="q8w6af"
 LayFix/
   README.md
   LayFix.sln
-
-  docs/
-    images/
-      layfix-icon.png
-      tray-reference.png
 
   src/
     LayFix.Core/
@@ -184,69 +155,46 @@ LayFix/
 
 ---
 
-# 🛠️ Build
+# Releases
 
-```powershell id="k1u9xe"
-dotnet restore LayFix.sln
-dotnet build LayFix.sln -c Release
+GitHub tag:
+
+```text id="x2m9ot"
+v1.0.0
 ```
 
-Run Windows version:
+Suggested release title:
 
-```powershell id="q0d3nw"
-dotnet run --project src\LayFix.Windows\LayFix.Windows.csproj -c Release
+```text id="v5f8qe"
+LayFix v1.0.0 Stable
 ```
 
----
+Release assets:
 
-# 📦 Build Portable EXE
-
-```powershell id="e8z4km"
-dotnet publish src\LayFix.Windows\LayFix.Windows.csproj `
-  -p:PublishProfile=portable-win-x64 `
-  -o artifacts\publish\LayFix-win-x64
-```
-
----
-
-# 📦 Build MSI Installer
-
-```powershell id="v5n2pw"
-dotnet tool install --global wix
-```
-
-```powershell id="u1k7zr"
-wix build installer\LayFix.wxs `
-  -d PublishDir="$PWD\artifacts\publish\LayFix-win-x64" `
-  -o artifacts\installer\LayFix.msi
+```text id="n1k4wy"
+LayFix-portable.exe
+LayFix-installer.msi
+LayFix-linux-x64
+LayFix-release.zip
 ```
 
 ---
 
-# 🔄 Check for Updates
+# Linux Build
 
-LayFix compares the current version with:
-
-```text id="p7f3lh"
-https://github.com/XTUFA7/LayFix/releases/latest
+```powershell id="z6u3pn"
+dotnet publish src\LayFix.Linux\LayFix.Linux.csproj `
+  -c Release `
+  -r linux-x64 `
+  --self-contained false `
+  -p:PublishSingleFile=true `
+  -o artifacts\publish\LayFix-linux-x64
 ```
-
----
-
-# 👤 0xTuFa7
-
-* X → https://x.com/0xtufa7
-* GitHub → https://github.com/XTUFA7
-* Instagram → https://instagram.com/_BB5BB
 
 ---
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=13&pause=1000&color=D5D8DE&center=true&vCenter=true&width=420&lines=lightweight+workflow...;local-only+conversion...;quiet+utilities..." />
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:2D5BFF,100:111111"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:2D5BFF,100:0F1115"/>
 
 </div>
