@@ -1,4 +1,4 @@
-```html
+
 <div align="center">
 
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2RtbHk4eG95a2p3aTV0d3h4M2N6M2R3MXQ1cWZ4eXZ4bHh1aW5qZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l3vR85PnGsBwu1PFK/giphy.gif" width="120" />
@@ -17,4 +17,4 @@
   </p>
 
 </div>
-```
+
